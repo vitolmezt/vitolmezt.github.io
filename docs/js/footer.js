@@ -3,7 +3,7 @@
 
 const footerFriends = [
     { name: "About", file: "about.html" },
-    { name: "GitHub", url: "https://github.com/Tianmaozheng", external: true },
+    { name: "GitHub", url: "https://github.com/vitolmezt", external: true },
 ];
 
 (function () {
@@ -31,7 +31,7 @@ const footerFriends = [
     container.innerHTML = `
         <div class="footer-content">
             <div class="copyright">
-                <div>© 2026 <a href="https://github.com/Tianmaozheng" target="_blank">violet</a> All Rights Reserved.</div>
+                <div>© 2026 <a href="https://github.com/vitolmezt" target="_blank">violet</a> All Rights Reserved.</div>
             </div>
             <div class="friends">
                 ${friendsHtml}
